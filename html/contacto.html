@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Trill Gang - Street Wear Mx</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1.0"/>
+	<link type="image/jpg" rel="shortcut icon" href="../media/tgr.png"/>
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="../css/miestilo_form.css">
+    
+</head>
+<body background="../media/fondo.png">
+	<div id="web">
+<!--Encabezado-->
+	<header class="cabecera" >
+		<img src="../media/trill.jpg" width="70" height="55" align="left">
+		<hgroup> <!-- hgroup sirve para agrupar tipos letra-->
+			<h1>Trill Gang Street Wear</h1>
+			<h2>Somos tu mejor opción</h2>
+		</hgroup>
+	</header>
+<!--Menu-->
+	<section id="seccion1">
+	<nav id="menu">
+		<ul>
+		  <li><a href="../Index.html">Inicio</a></li>
+		  <li><a href="../html/quienessomos.html">Quienes Somos</a></li>	
+		  <li><a href="../html/catalogo.html">Catalogo Productos</a></li>	
+		  <li><a href="../html/ubicacion.html">Ubicación</a></li>	
+		  <li><a href="../html/contacto.html">Contacto</a></li>	
+		 <input style="color: rgb(255, 255, 255);" placeholder="Buscar... "type="search" name="buscar" id="buscar"/>
+         <input type="submit" value="Buscar" id="submit" />    
+		</ul>
+	</nav>
+	</section>
+<!--Contenido-->
+	<section id="seccion">
+		<article>
+			<form class="contact_form"  name="contacto" method="POST" action="">
+                <ul>
+                    <li><h2>Registro de usuario</h2></li>
+                    <li><label for="nombre":>Nombre</label><input type="text" autofocus placeholder="Inserta tu nombre" required name="nombre"/></li>
+					<li><label for="correo":>Correo</label><input type="email" placeholder="Inserta tu e-mail" required name="correo"/></li>
+					<li><label for="contraseña":>Contraseña</label><input type="password" placeholder="Inserta tu contraseña" required name="password"/></li>
+					<li><label for="mensaje">Comentario:</label><textarea name="mensaje" cols="40" rows="6" required placeholder="Coloca tu comentario aqui"></textarea></li>
+					<li><button type="submit" class="submit">Enviar</button></li>
+					<li><button type="reset" class="submit">Eliminar</button></li>
+
+                </ul>
+        
+            </form>
+		</article>	
+	</section>
+	<aside id="aside">
+	<figure>
+		<img class="image_aside" src="../media/fresh.jpg">
+	</figure>	
+		visitame: 
+		<a href="https://open.spotify.com/artist/0skW6N2o0K5VZrZfXHq1pZ">
+		freshtg710@gmail.com</a>
+	</aside>
+	<footer id="footer">Copyrigth &copy; Trill Gang Records </footer>
+</div>
+</body>
+</html>
